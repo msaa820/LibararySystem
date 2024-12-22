@@ -1,0 +1,113 @@
+/* General styling */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #283048, #859398);
+    -fx-padding: 20px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Text fields */
+/* لضبط حجم الـTextField ليملأ الشاشة */
+.text-field {
+    -fx-pref-width: 450px; /* يجعل الـTextField يملأ العرض */
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-background-color: #f0f0f0;
+    -fx-border-radius: 5px;
+    -fx-border-color: #ccc;
+}
+
+/* تنسيق الأزرار */
+.button {
+    -fx-background-color: #4CAF50; /* لون الخلفية */
+    -fx-text-fill: white; /* لون النص */
+    -fx-padding: 10px 20px; /* تباعد داخلي */
+    -fx-font-size: 16px; /* حجم الخط */
+    -fx-border-radius: 5px;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.5), 3, 0.0, 2, 2); /* تأثير الظل */
+}
+
+/* تأثير عند المرور على الزر */
+.button:hover {
+    -fx-background-color: #45a049; /* تغيير لون الخلفية عند المرور */
+}
+
+/* تنسيق الفونت وتحديد الهامش للمحتوى */
+.root {
+    -fx-padding: 20px;
+}
+
+/* إضافة مسافة بين العناصر */
+.vbox {
+    -fx-spacing: 15px;
+}
+
+
+/* Table */
+/* تنسيق الجدول مثل Bootstrap */
+.table-view {
+    -fx-background-color: #fff;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 2);
+}
+
+.table-view .column-header {
+    -fx-background-color: #007bff; /* اللون الأزرق الخلفي للرأس */
+    -fx-text-fill: white; /* لون النص في الرأس */
+    -fx-padding: 10px;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-padding: 10px;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #f1f1f1;
+}
+
+.table-view .column-header .table-cell {
+    -fx-padding: 10px;
+    -fx-background-color: #041a31;
+    -fx-text-fill: white;
+}
+
+/* تخصيص الأعمدة */
+.table-view .table-column-header {
+    -fx-alignment: CENTER;
+}
+
+
+/* GridPane layout styling */
+.grid-pane {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 20px;
+}
+
+/* VBox and HBox */
+.hbox, .vbox {
+    -fx-spacing: 10px;
+}
+
+/* Canvas (for AVL Tree visualization) */
+.canvas {
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
